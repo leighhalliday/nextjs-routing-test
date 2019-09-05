@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "name": "nextjs",
+  "routes": [
+    {
+      "src": "/graphql",
+      "dest": "/api/graphql"
+    }
+  ],
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/next"
+    }
+  ]
+}
